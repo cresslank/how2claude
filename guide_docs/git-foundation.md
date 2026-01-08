@@ -57,6 +57,96 @@ When you run `git push` for the first time, GitHub will ask you to authenticate.
 
 If you get stuck, paste the exact error into your AI tool and ask for help.
 
+## Keep your repo private and safe
+
+When you create a repo on GitHub, you can choose **Public** or **Private**.
+
+**Make it private by default.** Unless you specifically want to share your code with the
+world, private repos keep your work visible only to you. You can always make it public later.
+
+**Never commit sensitive information**, even to private repos:
+- Passwords and API keys
+- Social security numbers, credit card numbers, personal data
+- `.env` files with secrets
+- Private keys and certificates
+
+If you accidentally commit something sensitive, deleting it in a later commit is not enough -
+it remains in the git history. Contact GitHub support or use tools like `git filter-branch`
+to remove it properly. Better to never commit it in the first place.
+
+The `.gitignore` file in this template already excludes common sensitive files (`.env`,
+`*.pem`, `secrets/`, etc.). Check it before committing.
+
+## GitHub enables more than backup
+
+GitHub is not just for saving your work. Once your code is on GitHub, you can:
+
+**Work from anywhere.** Start a project on your laptop, push to GitHub, then pull it down
+on another computer and continue. Your terminal, your IDE, your files - all in sync.
+
+**Use Claude on the web or mobile.** Claude Code can sync conversations between your local
+terminal and claude.ai. Start a conversation locally, push your code to GitHub, then continue
+the conversation on your phone or in a browser. The AI can see your repo and understand what
+you were working on.
+
+To enable this:
+1. Push your code to GitHub (`git push`)
+2. Go to claude.ai and start a new conversation
+3. Mention your GitHub repo or connect it when prompted
+
+This is why GitHub matters beyond just backup - it is the bridge between your local work
+and everywhere else you might want to continue.
+
+## Advanced: branches and pull requests
+
+This section is for when you are comfortable with the basics and want more control.
+**Skip this if you are just starting out.**
+
+So far, you have been pushing directly to `main` - the default branch. This works fine
+for solo projects. But branches let you:
+
+- Experiment without affecting your working code
+- Work on multiple features at once
+- Review changes before merging them
+
+### Create a branch
+
+```bash
+git checkout -b my-experiment      # Create and switch to a new branch
+# ... make changes ...
+git add .
+git commit -m "Try a new approach"
+git push -u origin my-experiment   # Push the branch to GitHub
+```
+
+### Merge back to main
+
+When you are happy with the changes:
+
+```bash
+git checkout main                  # Switch back to main
+git merge my-experiment            # Merge your branch into main
+git push                           # Push the updated main
+git branch -d my-experiment        # Delete the branch (optional)
+```
+
+### Pull requests
+
+On GitHub, you can create a **pull request** instead of merging directly. This lets you:
+- Review the changes in a web interface
+- Add comments and discussion
+- Have others review before merging (useful for teams)
+
+To create a pull request:
+1. Push your branch to GitHub
+2. Go to your repo on github.com
+3. Click "Compare & pull request"
+4. Review the changes and click "Create pull request"
+5. When ready, click "Merge pull request"
+
+For solo work, merging directly is fine. Pull requests are more useful when collaborating
+or when you want a clear record of why changes were made.
+
 ---
 <!-- nav -->
 Previous: [Create Your Project](project-setup.md)

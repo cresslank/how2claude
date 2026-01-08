@@ -11,45 +11,42 @@ preferences, your project structure, and how you want them to behave.
 This template uses `CLAUDE.md` as the main instructions file. The `AGENTS.md` file simply
 points to `CLAUDE.md`, so you only need to maintain one file.
 
-### Edit CLAUDE.md
+### Edit CLAUDE.md for your project
 
-This template already includes `CLAUDE.md` with a starter template. Edit it to describe
-your project, your preferences, and any notes you want the AI to remember.
+The template includes a `CLAUDE.md` with starter content. Edit it to describe what you are
+building and how you want the AI to behave.
 
 You do not need to touch `AGENTS.md` - it automatically redirects other tools to `CLAUDE.md`.
 
-### What to put in it
+### The key sections
 
-Start minimal. Add things as you discover what you keep repeating.
+**About This Project** - What you are building, in a sentence or two.
 
-```markdown
-# Project Context
+**About Me** - Your context. Are you a beginner? Do you have preferences about languages
+or frameworks?
 
-This is a [brief description of what you're building].
+**What I Want Claude to Do** - Things that work well for you. Add to this when the AI does
+something helpful that you want it to keep doing. For example:
+- Explain what you are doing and why
+- Tell me when a request is more complex than it sounds
+- Ask questions before starting large tasks
 
-## About Me
+**What I Don't Want Claude to Do** - Things that annoy you. Add to this when the AI does
+something you dislike. For example:
+- Don't comment out code - delete it instead
+- Don't create extra markdown files unless I ask
+- Don't over-engineer or add features I didn't request
 
-I'm not a professional programmer. Please:
-- Explain what you're doing and why
-- Keep things simple when possible
-- Ask clarifying questions before making big changes
-
-## Commands
-
-- `python main.py` - Run the main script
-- `pip install -r requirements.txt` - Install dependencies
-
-## Preferences
-
-- Use Python 3.11+
-- Prefer simple solutions over clever ones
-- Write comments explaining non-obvious code
-```
+**Notes** - Project-specific things to remember, like API limits or file locations.
 
 ### The habit to build
 
-Every time you explain something to the AI and think "I'll probably need to explain this again,"
-add it to your CLAUDE.md. The file grows with you.
+Start with the template as-is. Then:
+- Every time the AI does something you like, add it to "What I Want."
+- Every time the AI does something annoying, add it to "What I Don't Want."
+- Every time you explain something and think "I'll probably say this again," add it to Notes.
+
+The file becomes a record of your preferences and grows with you.
 
 ## Start with a folder per project
 

@@ -5,6 +5,10 @@
 This repo is a template plus a guide for learning to use Claude Code, Codex CLI, and similar
 tools. The guide is split into short docs in the `guide_docs/` folder.
 
+> **Note:** These tools evolve quickly. Commands, features, and interfaces may change.
+> If you find something outdated or incorrect, please [open an issue](../../issues) or
+> submit a pull request. Last verified: January 2026.
+
 ## Start Here
 
 If you are brand new, start with:
@@ -67,3 +71,30 @@ You can jump around. This guide is designed to be non-linear.
 | `scripts/` | Utility scripts and automation |
 | `docs/` | Documentation and notes |
 | `projects/` | Your project code |
+
+## Why This Project Exists
+
+Many non-technical people use ChatGPT and Claude like a search engine: ask a question, get
+an answer. But these tools can do much more - they can make your computer do things, not
+just answer questions.
+
+This project exists to help people bridge that gap. It came from noticing that the jump
+from "chat with AI in a browser" to "AI helps me build and automate things on my computer"
+is confusing without guidance.
+
+The goal is minimum viable understanding - enough to get started and learn by doing, not
+enough to become a software engineer.
+
+## Contributing
+
+Found something wrong or outdated? Want to improve the guide?
+
+- **Report issues:** [Open an issue](../../issues) describing what is wrong or confusing
+- **Fix it yourself:** Fork the repo, make your changes, and submit a pull request
+- **Suggest improvements:** Open an issue with your idea
+
+This guide tries to stay simple and practical. When contributing, keep in mind:
+- The audience is non-technical people who are new to all of this
+- Prefer concrete examples over abstract explanations
+- Do not assume knowledge of programming concepts
+- Keep it short - people can always learn more later

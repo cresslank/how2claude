@@ -77,6 +77,12 @@ work, and run it. There are many ways to do each step. This is one path that wor
 If you are using an IDE, you likely have both visible: the AI tool in one panel, the terminal
 in another. If not, you can switch between them.
 
+**Who runs the code?** These AI tools can execute commands directly - they will ask permission
+before doing things like creating files or running scripts. This is convenient, but you can
+also copy the commands and run them yourself in the terminal. Running things yourself gives
+you more control and helps you learn what is actually happening. Start by watching what the
+AI does; as you get more comfortable, try running commands yourself to build understanding.
+
 ### Step 1: Ask for something real
 
 In the AI chat, type this prompt:
@@ -265,6 +271,148 @@ This is the core loop. Everything else is refinement.
 Each step above has depth you can explore later: git has dozens of commands, Python has
 thousands of libraries, data visualization is its own field. You do not need to learn any
 of that right now. This one path works. Start here, and learn more as you need it.
+
+---
+
+## A second exercise: research and writing
+
+Not everything is about data and charts. Here is a workflow for research and document
+creation - the kind of thing you might do if you write memos, reports, or analyses.
+
+### The scenario
+
+You want to write a memo about a topic. You have some source material (articles, PDFs,
+notes) and you want to synthesize it into something coherent.
+
+### Step 1: Set up your workspace
+
+Create a folder for this project and put your source materials in it. For example:
+
+```
+memo-project/
+├── sources/
+│   ├── article1.pdf
+│   ├── article2.pdf
+│   └── notes.txt
+└── (empty - this is where your output will go)
+```
+
+Navigate to this folder in your terminal and start the AI tool:
+
+```bash
+cd ~/Desktop/memo-project
+claude
+```
+
+### Step 2: Have the AI read your sources
+
+In the AI chat:
+
+```
+Read everything in the sources/ folder. Tell me what each document is about and identify
+the main themes across all of them.
+```
+
+**What to check:** Does the AI's summary match your understanding? Did it miss anything
+important? Did it correctly identify the key themes?
+
+If something is off:
+```
+You missed the section in article1.pdf about [topic]. Please re-read that part.
+```
+
+### Step 3: Create an outline
+
+Once you are satisfied the AI understands the material:
+
+```
+I need to write a memo about [your topic] for [your audience]. Based on these sources,
+create an outline with:
+- An executive summary (2-3 sentences)
+- 3-4 main sections with bullet points for what each should cover
+- A conclusion with recommendations
+
+Save this as outline.md
+```
+
+**What to check:** Open `outline.md` (in your IDE or file browser). Does the structure
+make sense? Are the sections in a logical order? Is anything missing?
+
+```
+The outline looks good but I want to add a section about [topic]. Also, move the
+recommendations to their own section instead of the conclusion.
+```
+
+### Step 4: Draft a section
+
+Do not ask for the whole memo at once. Work section by section:
+
+```
+Write the first section based on the outline. Use a professional but accessible tone.
+Cite the source documents when making claims. Save this to draft.md
+```
+
+**What to check:** Read what it wrote. Does it sound like something you would write?
+Is the tone right? Are the citations accurate?
+
+```
+This is too formal. Make it more conversational. Also, the second paragraph cites
+article1.pdf but I think that claim actually came from article2.pdf - please check.
+```
+
+### Step 5: Continue and refine
+
+Continue through each section:
+
+```
+Now write section 2. Maintain the same tone as section 1.
+```
+
+After each section, review and give feedback. The AI remembers the previous context and
+your corrections.
+
+When you have a complete draft:
+
+```
+Read through the entire draft.md file. Check for:
+- Inconsistencies between sections
+- Repeated points
+- Gaps in the argument
+- Awkward transitions
+
+Tell me what you find, but do not rewrite anything yet.
+```
+
+This gives you a list of issues to address rather than having the AI silently "fix" things.
+
+### Step 6: Save and export
+
+When you are happy with the draft:
+
+```
+Commit this with the message "Complete first draft of memo"
+```
+
+If you want to export it somewhere:
+
+```
+Create a script called export.py that converts draft.md to a Word document and saves it
+to my Google Drive folder at ~/Google Drive/Memos/
+```
+
+(The AI will ask clarifying questions if it needs them, like the exact path to your
+Google Drive folder.)
+
+### The difference from the browser
+
+In a browser chat, you would have to:
+- Copy-paste each source document into the chat
+- Manually save every output the AI generates
+- Re-explain context every time you start a new session
+- Copy the final result somewhere yourself
+
+Here, the AI reads your files directly, saves its output to your folder, and remembers
+everything within the session. You work with real files, not chat messages.
 
 ---
 <!-- nav -->

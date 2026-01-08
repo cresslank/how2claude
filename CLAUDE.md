@@ -1,65 +1,52 @@
-# Project Instructions for Claude Code
+# About This Project
 
-<!--
-This file is read by Claude Code to understand your project and preferences.
-Other AI tools (Codex, Cursor, Windsurf) read AGENTS.md, which points here.
+This is **how2claude**, a tutorial and template repository for non-programmers learning to use
+AI coding tools (Claude Code, Codex CLI, Droid, etc.).
 
-Customize this file for your project. Add notes as you learn what works.
--->
-
-## About This Project
-
-<!-- Describe what you're building in 1-2 sentences -->
-This is a new project. Update this section with what you're building.
+The guide content lives in `guide_docs/`. When you fork this repo for your own project, edit
+this file to describe what you are building and how you want the AI to behave.
 
 ## About Me
 
-I'm not a professional programmer. Please:
-- Explain what you're doing and why
-- Keep things simple when possible
-- Ask clarifying questions before making big changes
-- Warn me if something might break existing functionality
+<!-- Edit this section to describe yourself and your context -->
+
+I am not a professional programmer. I am learning to use AI coding tools to build things.
+
+## What I Want Claude to Do
+
+<!-- Add things here as you discover what works well for you -->
+
+- Explain what you are doing and why, especially for non-obvious steps
+- Keep things simple - favor clarity over cleverness
+- When I ask for something, tell me if it is more complex than it sounds. I may not realize
+  a "simple" request actually involves many steps or tricky edge cases.
+- Ask clarifying questions before starting large tasks
+
+## What I Don't Want Claude to Do
+
+<!-- Add things here when Claude does something annoying -->
+
+- Don't comment out code. If something should be removed, delete it.
+- Don't create extra markdown files, READMEs, or documentation unless I ask.
+- Don't over-engineer. No unnecessary abstractions, config files, or patterns that add
+  complexity without clear benefit.
+- Don't add features I didn't ask for.
 
 ## Project Structure
 
-<!-- Update this as your project grows -->
 ```
 .
-├── CLAUDE.md       # This file (instructions for Claude Code)
-├── AGENTS.md       # Points other AI tools to this file
-├── README.md       # Project description
-├── scripts/        # Utility scripts and automation
-├── docs/           # Documentation and notes
-└── projects/       # Your project code
+├── README.md           # Main entry point, links to guide_docs/
+├── CLAUDE.md           # This file
+├── AGENTS.md           # Points other AI tools to CLAUDE.md
+├── guide_docs/         # The tutorial content
+├── scripts/            # Placeholder for scripts
+├── docs/               # Placeholder for documentation
+└── projects/           # Placeholder for project code
 ```
 
-## Commands
+## Notes
 
-<!-- Add commands you use frequently -->
-```bash
-# Example commands - replace with your own
-python main.py              # Run the main script
-pip install -r requirements.txt  # Install dependencies
-npm start                   # Start a Node.js project
-```
-
-## Preferences
-
-<!-- Customize these to match how you like to work -->
-- Prefer simple solutions over clever ones
-- Write comments explaining non-obvious code
-- Use Python 3.11+ (or specify your preferred language)
-- Create small, focused commits
-
-## Things to Remember
-
-<!-- Add project-specific notes here as you learn them -->
-- (Add notes as you work, e.g., "The API rate limits to 100 requests/minute")
-- (e.g., "User data is in the `data/` folder, don't commit it")
-
-## Don't
-
-<!-- Things you want the AI to avoid -->
-- Don't make changes without explaining them first
-- Don't delete code without asking (comment it out instead)
-- Don't add unnecessary dependencies
+<!-- Add project-specific notes here as you learn things -->
+<!-- Example: "The API rate limits to 100 requests per minute" -->
+<!-- Example: "Data files go in data/ and should not be committed" -->
