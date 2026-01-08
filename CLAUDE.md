@@ -1,8 +1,10 @@
 # Project Instructions for Claude Code
 
 <!--
-This file tells Claude Code about your project and preferences.
-Customize it for your specific project, then delete these comments.
+This file is read by Claude Code to understand your project and preferences.
+Other AI tools (Codex, Cursor, Windsurf) read AGENTS.md, which points here.
+
+Customize this file for your project. Add notes as you learn what works.
 -->
 
 ## About This Project
@@ -24,7 +26,7 @@ I'm not a professional programmer. Please:
 ```
 .
 ├── CLAUDE.md       # This file (instructions for Claude Code)
-├── AGENTS.md       # Instructions for other AI tools
+├── AGENTS.md       # Points other AI tools to this file
 ├── README.md       # Project description
 ├── scripts/        # Utility scripts and automation
 ├── docs/           # Documentation and notes
@@ -57,7 +59,7 @@ npm start                   # Start a Node.js project
 
 ## Don't
 
-<!-- Things you want Claude to avoid -->
+<!-- Things you want the AI to avoid -->
 - Don't make changes without explaining them first
 - Don't delete code without asking (comment it out instead)
 - Don't add unnecessary dependencies
