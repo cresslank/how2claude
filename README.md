@@ -28,7 +28,7 @@ Pick the path that matches where you are right now:
 | The terminal feels intimidating | [Terminal Basics](guide_docs/getting-started.md#terminal-basics-start-here) |
 | I have tools installed but no project | [Create Your Project](guide_docs/project-setup.md) |
 | I have a project and want to start coding | [Your First AI Session](guide_docs/first-session.md) |
-| I need Git basics | [The GitHub Foundation](guide_docs/git-foundation.md) |
+| I need Git basics | [Git Foundation](guide_docs/git-foundation.md) |
 | I am stuck or got an error | [Troubleshooting](guide_docs/troubleshooting.md) |
 | I just want the commands | [Quick Reference](guide_docs/quick-reference.md) |
 
