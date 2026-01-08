@@ -88,9 +88,9 @@ Options:
 A common beginner setup is: IDE + terminal together. Use the terminal for commands and the
 IDE to see and edit files.
 
-## Choose your OS path
+## Choose your operating system
 
-If you want a short, OS-specific checklist, use the one that matches your computer.
+Short checklists by operating system. Pick the one that matches your computer.
 
 ### macOS quick path
 1. Open Terminal (Spotlight -> "Terminal").
@@ -116,6 +116,9 @@ If you want a short, OS-specific checklist, use the one that matches your comput
 ## Install the tool
 
 Only install the tool you plan to use right now. You can add the others later.
+
+The install commands below use `npm`, which is a package manager that comes with Node.js.
+If you installed Node.js in the previous step, you have npm.
 
 ### Claude Code (Anthropic)
 
@@ -181,9 +184,8 @@ This section is for people who want more control or want to avoid subscription c
 with the basics.
 
 **Other CLI tools:**
-- [opencode](https://github.com/opencode-ai/opencode) - open source alternative
+- [opencode](https://github.com/anomalyco/opencode) - open source alternative
 - [aider](https://aider.chat/) - works with many AI providers
-- [continue](https://continue.dev/) - IDE extension with CLI capabilities
 
 **Using APIs directly:**
 If you have programming experience, you can use AI provider APIs directly. Many offer

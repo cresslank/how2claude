@@ -4,8 +4,8 @@ Python is the most common language for beginners using AI coding tools. Here is 
 
 ## Virtual environments
 
-A virtual environment keeps your project's dependencies separate from other projects. This
-prevents "it works on my machine" problems.
+A virtual environment keeps your project's dependencies (other packages your code needs
+to run) separate from other projects. This prevents "it works on my machine" problems.
 
 ```bash
 # Create a virtual environment

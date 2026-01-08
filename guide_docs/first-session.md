@@ -1,5 +1,9 @@
 # Your First AI Coding Session
 
+This assumes you have completed the earlier steps: you have a project folder on your
+computer and you have installed one of the AI coding tools (Claude Code, Codex, or Droid).
+If not, start with [Create Your Project](project-setup.md).
+
 ## Start the tool
 
 Navigate to your project folder and launch:
@@ -20,6 +24,9 @@ droid         # for Droid CLI
 ```
 
 The first time, you will authenticate - follow the prompts.
+
+The first session might feel clunky. You are learning a new tool and it is learning your
+project. This gets faster.
 
 ## The core workflow
 

@@ -2,7 +2,9 @@
 
 This is a template repository. Instead of cloning it directly, create your own copy.
 
-**Prerequisite:** You need Git installed. If you haven't done that yet, see [Getting Started](getting-started.md#choose-your-os-path).
+**Prerequisites:**
+- A GitHub account. If you do not have one, create one at [github.com](https://github.com/) - it is free.
+- Git installed on your computer. If you have not done that yet, see [Getting Started](getting-started.md#choose-your-operating-system).
 
 ## Use this template
 

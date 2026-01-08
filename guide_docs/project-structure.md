@@ -46,7 +46,8 @@ Start with the template as-is. Then:
 - Every time the AI does something annoying, add it to "What I Don't Want."
 - Every time you explain something and think "I'll probably say this again," add it to Notes.
 
-The file becomes a record of your preferences and grows with you.
+This is how you get from "explain yourself every time" to "buttons that just work."
+The file grows with you.
 
 ## Start with a folder per project
 

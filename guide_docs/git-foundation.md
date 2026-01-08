@@ -2,11 +2,11 @@
 
 ## Why GitHub matters
 
-Git is version control - a way to save checkpoints of your work that you can return to.
-GitHub is where those checkpoints live online.
+Git is version control software that runs on your computer. GitHub is a website that stores
+your Git repositories online. You use Git commands locally; GitHub is where the backups live.
 
-Think of it like this: every time you save a checkpoint, you create an "undo" button you
-can press days or weeks later.
+Every time you save a checkpoint, you create an "undo" button you can press days or
+weeks later.
 
 When working with AI coding tools, this is essential. The AI will sometimes break things.
 You need a safety net.
@@ -65,7 +65,7 @@ When you create a repo on GitHub, you can choose **Public** or **Private**.
 world, private repos keep your work visible only to you. You can always make it public later.
 
 **Never commit sensitive information**, even to private repos:
-- Passwords and API keys
+- Passwords and API keys (passwords that let programs access services)
 - Social security numbers, credit card numbers, personal data
 - `.env` files with secrets
 - Private keys and certificates

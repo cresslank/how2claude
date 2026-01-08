@@ -2,8 +2,8 @@
 
 **A starter kit and guide for non-programmers using AI coding tools**
 
-This repo is a template plus a guide for learning to use Claude Code, Codex CLI, and similar
-tools. The guide is split into short docs in the `guide_docs/` folder.
+This repository is a template plus a guide for learning to use Claude Code, Codex, and
+similar tools. The guide is split into short docs in the `guide_docs/` folder.
 
 > **Note:** These tools evolve quickly. Commands, features, and interfaces may change.
 > If you find something outdated or incorrect, please [open an issue](../../issues) or
@@ -24,7 +24,7 @@ Pick the path that matches where you are right now:
 |----------------|------------|
 | I want to understand why this setup matters | [Why This Setup](guide_docs/why-this-setup.md) |
 | I have not installed anything | [Getting Started](guide_docs/getting-started.md) |
-| I want a quick OS-specific checklist | [Choose Your OS Path](guide_docs/getting-started.md#choose-your-os-path) |
+| I need a checklist for Mac, Windows, or Linux | [Choose Your OS Path](guide_docs/getting-started.md#choose-your-os-path) |
 | The terminal feels intimidating | [Terminal Basics](guide_docs/getting-started.md#terminal-basics-start-here) |
 | I have tools installed but no project | [Create Your Project](guide_docs/project-setup.md) |
 | I have a project and want to start coding | [Your First AI Session](guide_docs/first-session.md) |
@@ -38,7 +38,7 @@ You can jump around. This guide is designed to be non-linear.
 
 - Why this setup and the mindset:
   [guide_docs/why-this-setup.md](guide_docs/why-this-setup.md)
-- Getting started (terminal basics, IDEs, tool install, OS paths):
+- Getting started (terminal basics, editors, tool install, Mac/Windows/Linux paths):
   [guide_docs/getting-started.md](guide_docs/getting-started.md)
 - Create your project from this template:
   [guide_docs/project-setup.md](guide_docs/project-setup.md)
@@ -90,7 +90,7 @@ enough to become a software engineer.
 Found something wrong or outdated? Want to improve the guide?
 
 - **Report issues:** [Open an issue](../../issues) describing what is wrong or confusing
-- **Fix it yourself:** Fork the repo, make your changes, and submit a pull request
+- **Fix it yourself:** Fork the repository (make your own copy), make changes, and submit a pull request
 - **Suggest improvements:** Open an issue with your idea
 
 This guide tries to stay simple and practical. When contributing, keep in mind:
