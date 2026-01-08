@@ -62,7 +62,7 @@ cd ..        # Go up one folder
 mkdir test   # Make a new folder called "test"
 ```
 
-You do not need to memorize these. Use the quick reference when you need it:
+Use the quick reference when you need it:
 [Quick Reference](quick-reference.md)
 
 ## If the terminal feels intimidating
@@ -96,22 +96,28 @@ Short checklists by operating system. Pick the one that matches your computer.
 1. Open Terminal (Spotlight -> "Terminal").
 2. Check Git: `git --version` (install if prompted).
 3. Install Node.js (LTS): [nodejs.org](https://nodejs.org/)
-4. Install your AI tool (see next section).
-5. Create your project from this template: [Create Your Project](project-setup.md)
+4. Check Python: `python3 --version`. If not installed, download from [python.org](https://www.python.org/downloads/)
+5. Install your AI tool (see next section).
+6. Create your project from this template: [Create Your Project](project-setup.md)
 
 ### Windows quick path
 1. Open PowerShell.
 2. Install Git: [git-scm.com](https://git-scm.com/)
 3. Install Node.js (LTS): [nodejs.org](https://nodejs.org/)
-4. Install your AI tool (see next section).
-5. Create your project from this template: [Create Your Project](project-setup.md)
+4. Install Python: [python.org](https://www.python.org/downloads/) - check "Add Python to PATH" during install
+5. Install your AI tool (see next section).
+6. Create your project from this template: [Create Your Project](project-setup.md)
 
 ### Linux quick path
 1. Open your terminal.
 2. Install Git with your package manager (or check `git --version`).
 3. Install Node.js (LTS) from [nodejs.org](https://nodejs.org/) or your package manager.
-4. Install your AI tool (see next section).
-5. Create your project from this template: [Create Your Project](project-setup.md)
+4. Check Python: `python3 --version`. Install via your package manager if needed.
+5. Install your AI tool (see next section).
+6. Create your project from this template: [Create Your Project](project-setup.md)
+
+**After installing:** Close and reopen your terminal before continuing. New programs often
+will not be recognized until you do this.
 
 ## Install the tool
 
@@ -204,5 +210,4 @@ recommended above (Claude Code, Codex, Droid) are designed to work out of the bo
 
 ---
 <!-- nav -->
-Previous: [Why This Setup](why-this-setup.md)
 Next: [Create Your Project](project-setup.md)

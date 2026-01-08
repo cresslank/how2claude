@@ -40,8 +40,19 @@ These handle 90 percent of what you will do:
 | `git push` | Uploads your checkpoints to GitHub |
 | `git pull` | Downloads any changes from GitHub |
 
-Habit to build: Before asking the AI to do something significant, run
+Think of `push` and `pull` like save and load in a video game. Push saves your progress to the
+cloud. Pull loads the latest version - whether that is your own work from another computer, or
+updates someone else made to a shared project.
+
+If you created your project from a template (like this one), `git pull` is also how you would
+get updates to the template. The original repo can be updated, and you can pull those changes
+into your copy.
+
+**Habit to build:** Before asking the AI to do something significant, run
 `git add .` and `git commit -m "before AI changes"`. This gives you an instant undo button.
+
+If you work from multiple computers, start each session with `git pull` to make sure you have
+the latest version.
 
 ## First-time `git push` authentication (common blocker)
 

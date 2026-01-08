@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Ask the AI to handle this
 
-You do not need to memorize this. Just tell the AI:
+Just tell the AI:
 "Set up a Python virtual environment and requirements.txt for this project"
 
 ---

@@ -9,55 +9,98 @@ similar tools. The guide is split into short docs in the `guide_docs/` folder.
 > If you find something outdated or incorrect, please [open an issue](../../issues) or
 > submit a pull request. Last verified: January 2026.
 
-## Start Here
+## Where to Start
 
-If you are brand new, start with:
-[Why This Setup](guide_docs/why-this-setup.md) -> [Getting Started](guide_docs/getting-started.md) -> [Create Your Project](guide_docs/project-setup.md) -> [Git Foundation](guide_docs/git-foundation.md) -> [Project Structure](guide_docs/project-structure.md) -> [Your First AI Session](guide_docs/first-session.md)
-
-If you want a faster path, use the table below and jump straight to the section you need.
-
-## Jump to What You Need
-
-Pick the path that matches where you are right now:
+If you are brand new, start with "I have not installed anything" and work down.
 
 | You are here... | Start here |
 |----------------|------------|
-| I want to understand why this setup matters | [Why This Setup](guide_docs/why-this-setup.md) |
 | I have not installed anything | [Getting Started](guide_docs/getting-started.md) |
-| I need a checklist for Mac, Windows, or Linux | [Choose Your OS Path](guide_docs/getting-started.md#choose-your-os-path) |
-| The terminal feels intimidating | [Terminal Basics](guide_docs/getting-started.md#terminal-basics-start-here) |
+| I need a checklist for Mac, Windows, or Linux | [Choose Your OS Path](guide_docs/getting-started.md#choose-your-operating-system) |
+| The terminal feels intimidating | [Terminal Basics](guide_docs/getting-started.md#terminal-basics) |
 | I have tools installed but no project | [Create Your Project](guide_docs/project-setup.md) |
 | I have a project and want to start coding | [Your First AI Session](guide_docs/first-session.md) |
 | I need Git basics | [Git Foundation](guide_docs/git-foundation.md) |
 | I am stuck or got an error | [Troubleshooting](guide_docs/troubleshooting.md) |
 | I just want the commands | [Quick Reference](guide_docs/quick-reference.md) |
 
-You can jump around. This guide is designed to be non-linear.
+## Why This Setup
 
-## Guide Map
+Many non-technical people use ChatGPT and Claude like a search engine: ask a question, get
+an answer. But these tools can do much more - they can make your computer do things, not
+just answer questions. This project exists to help people bridge that gap.
 
-- Why this setup and the mindset:
-  [guide_docs/why-this-setup.md](guide_docs/why-this-setup.md)
-- Getting started (terminal basics, editors, tool install, Mac/Windows/Linux paths):
-  [guide_docs/getting-started.md](guide_docs/getting-started.md)
-- Create your project from this template:
-  [guide_docs/project-setup.md](guide_docs/project-setup.md)
-- Git basics and first push auth:
-  [guide_docs/git-foundation.md](guide_docs/git-foundation.md)
-- Your first AI coding session:
-  [guide_docs/first-session.md](guide_docs/first-session.md)
-- Project structure and instructions (CLAUDE.md / AGENTS.md):
-  [guide_docs/project-structure.md](guide_docs/project-structure.md)
-- Python basics (if applicable):
-  [guide_docs/python-basics.md](guide_docs/python-basics.md)
-- Running and testing:
-  [guide_docs/running-testing.md](guide_docs/running-testing.md)
-- Troubleshooting:
-  [guide_docs/troubleshooting.md](guide_docs/troubleshooting.md)
-- Quick reference:
-  [guide_docs/quick-reference.md](guide_docs/quick-reference.md)
-- Resources:
-  [guide_docs/resources.md](guide_docs/resources.md)
+The browser and mobile apps hit a wall. Chat interfaces are great for questions, but they
+cannot see your files, run anything on your computer, and forget a lot between sessions.
+You end up copy-pasting constantly and explaining context over and over.
+
+Tools like Claude Code, Codex, and Droid can read everything in a folder on your computer,
+create and modify files, run commands, and iterate based on what happens. The value is not
+what happens the first time - it is what happens the hundredth time. Over time you can
+build tools that you and your AI can use over and over again, without needing to explain
+yourself at length each time.
+
+Git is your save and undo button. When you are experimenting with AI that can modify things
+on your computer, you need a safety net.
+
+The setup is a one-time cost. Yes, there is friction upfront. But once you have done it once,
+starting new projects gets easier.
+
+### What can you actually do?
+
+Here are concrete examples. None of these require you to know how to code.
+
+**Research and synthesis**
+
+You have 15 PDFs of research papers on a topic. Instead of reading them all yourself:
+- "Read all the PDFs in this folder and create a summary document listing the key findings,
+  grouped by theme. Note where sources disagree."
+- "Which of these papers discusses [specific topic]? Pull the relevant quotes."
+- "Create an annotated bibliography from these sources."
+
+**Writing workflows**
+
+You are writing a memo or report:
+- "Here is my rough outline. Turn it into a first draft, keeping my voice."
+- "Read draft.md and suggest structural improvements. Do not rewrite - just tell me what
+  to consider."
+- "Create three different versions of the executive summary - one for technical readers,
+  one for executives, one for external stakeholders."
+
+**Data and documents**
+
+You have messy files that need organizing:
+- "There are 200 files in this folder with inconsistent names. Rename them to follow the
+  pattern YYYY-MM-DD_description.ext and create a log of what changed."
+- "Read all the CSVs in data/ and tell me what columns they have in common. Then merge
+  them into one file."
+- "Convert all the .docx files in this folder to markdown."
+
+**Automation**
+
+You do the same thing repeatedly:
+- "Write a script that takes a markdown file and uploads it to my Google Drive folder."
+- "Every file in inbox/ should be renamed with today's date and moved to archive/."
+- "Create a script that checks this website daily and emails me if the price drops below $X."
+
+The key insight: these tools can see and manipulate your actual files. The browser-based
+chat cannot. That is the difference.
+
+### The mindset
+
+You are not trying to become a programmer. You are learning to collaborate with a very fast,
+very literal assistant that happens to write code.
+
+The AI is like an eager junior employee: technically capable, but needs clear direction. Your
+job is to:
+
+1. Know what you want (roughly)
+2. Communicate it clearly
+3. Review the work
+4. Course-correct as needed
+
+Start small. Build something trivial. Break it. Fix it. The confidence comes from doing, not
+from reading guides like this one.
 
 ## About This Template
 
@@ -71,19 +114,6 @@ You can jump around. This guide is designed to be non-linear.
 | `scripts/` | Utility scripts and automation |
 | `docs/` | Documentation and notes |
 | `projects/` | Your project code |
-
-## Why This Project Exists
-
-Many non-technical people use ChatGPT and Claude like a search engine: ask a question, get
-an answer. But these tools can do much more - they can make your computer do things, not
-just answer questions.
-
-This project exists to help people bridge that gap. It came from noticing that the jump
-from "chat with AI in a browser" to "AI helps me build and automate things on my computer"
-is confusing without guidance.
-
-The goal is minimum viable understanding - enough to get started and learn by doing, not
-enough to become a software engineer.
 
 ## Contributing
 
