@@ -204,7 +204,7 @@ If something looks off, you will address it in the next step.
 
 ### Step 6: Question and iterate
 
-This is where it gets interesting. Go back to the AI chat and ask follow-up questions.
+Go back to the AI chat and ask follow-up questions.
 After each change, run the script again (`python inflation_chart.py`) to see the result.
 
 **Understand the data:**
@@ -247,10 +247,9 @@ After each change:
 Commit these changes. We refined the chart to show percentage change and added the Fed target line.
 ```
 
-This is the real power: you can interrogate the data, change how it is presented, add new
-calculations, and keep refining until you have something useful. Each question builds on
-what you already have. The AI can see your existing code and modify it - you are not starting
-over each time.
+You can interrogate the data, change how it is presented, add new calculations, and keep
+refining until you have something useful. Each question builds on what you already have.
+The AI can see your existing code and modify it - you are not starting over each time.
 
 ### Why this matters
 

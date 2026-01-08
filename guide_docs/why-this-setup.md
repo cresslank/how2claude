@@ -64,15 +64,6 @@ You do the same thing repeatedly:
 The key insight: these tools can see and manipulate your actual files. The browser-based
 chat cannot. That is the difference.
 
-## The philosophy
-
-These tools let you describe what you want in plain English and have AI write the code. The key
-insight: you are not learning to code - you are learning to collaborate with something that
-codes.
-
-This guide avoids "always do XYZ" prescriptions. Instead, it teaches the mental models and
-vocabulary to figure things out as you go.
-
 ## The mindset
 
 You are not trying to become a programmer. You are learning to collaborate with a very fast,
